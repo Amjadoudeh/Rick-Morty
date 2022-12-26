@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  RickAndMorty
-//
-//  Created by Amjad Oudeh on 26.12.22.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -12,6 +5,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
 
 
