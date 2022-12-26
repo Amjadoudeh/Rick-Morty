@@ -15,6 +15,9 @@
 		D0C04D9C2959BF8800E4643E /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04D9B2959BF8800E4643E /* RickAndMortyTests.swift */; };
 		D0C04DA62959BF8800E4643E /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DA52959BF8800E4643E /* RickAndMortyUITests.swift */; };
 		D0C04DA82959BF8800E4643E /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DA72959BF8800E4643E /* RickAndMortyUITestsLaunchTests.swift */; };
+		D0C04DBC2959F12500E4643E /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DBB2959F12500E4643E /* RMLocation.swift */; };
+		D0C04DBE2959F15600E4643E /* RMCharachter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DBD2959F15600E4643E /* RMCharachter.swift */; };
+		D0C04DC02959F17700E4643E /* RMEpisodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DBF2959F17700E4643E /* RMEpisodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D0C04DA12959BF8800E4643E /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C04DA52959BF8800E4643E /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
 		D0C04DA72959BF8800E4643E /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C04DBB2959F12500E4643E /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
+		D0C04DBD2959F15600E4643E /* RMCharachter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharachter.swift; sourceTree = "<group>"; };
+		D0C04DBF2959F17700E4643E /* RMEpisodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 		D0C04DB72959EF9B00E4643E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0C04DBB2959F12500E4643E /* RMLocation.swift */,
+				D0C04DBD2959F15600E4643E /* RMCharachter.swift */,
+				D0C04DBF2959F17700E4643E /* RMEpisodes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,9 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C04DBE2959F15600E4643E /* RMCharachter.swift in Sources */,
 				D0C04D892959BF8700E4643E /* ViewController.swift in Sources */,
+				D0C04DC02959F17700E4643E /* RMEpisodes.swift in Sources */,
 				D0C04D852959BF8700E4643E /* AppDelegate.swift in Sources */,
 				D0C04D872959BF8700E4643E /* SceneDelegate.swift in Sources */,
+				D0C04DBC2959F12500E4643E /* RMLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
