@@ -97,11 +97,13 @@
 		D0C04D832959BF8700E4643E /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				D0C04D842959BF8700E4643E /* AppDelegate.swift */,
-				D0C04D862959BF8700E4643E /* SceneDelegate.swift */,
-				D0C04D882959BF8700E4643E /* ViewController.swift */,
-				D0C04D8D2959BF8800E4643E /* Assets.xcassets */,
-				D0C04D8F2959BF8800E4643E /* LaunchScreen.storyboard */,
+				D0C04DBA2959F01D00E4643E /* Resources */,
+				D0C04DB92959F00B00E4643E /* Managers */,
+				D0C04DB82959EFFD00E4643E /* APIClient */,
+				D0C04DB72959EF9B00E4643E /* Models */,
+				D0C04DB52959EF8A00E4643E /* Views */,
+				D0C04DB62959EF9300E4643E /* ViewModels */,
+				D0C04DB42959EF8100E4643E /* Contorllers  */,
 				D0C04D922959BF8800E4643E /* Info.plist */,
 			);
 			path = RickAndMorty;
@@ -122,6 +124,60 @@
 				D0C04DA72959BF8800E4643E /* RickAndMortyUITestsLaunchTests.swift */,
 			);
 			path = RickAndMortyUITests;
+			sourceTree = "<group>";
+		};
+		D0C04DB42959EF8100E4643E /* Contorllers  */ = {
+			isa = PBXGroup;
+			children = (
+				D0C04D882959BF8700E4643E /* ViewController.swift */,
+			);
+			path = "Contorllers ";
+			sourceTree = "<group>";
+		};
+		D0C04DB52959EF8A00E4643E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0C04DB62959EF9300E4643E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0C04DB72959EF9B00E4643E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0C04DB82959EFFD00E4643E /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		D0C04DB92959F00B00E4643E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D0C04DBA2959F01D00E4643E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0C04D842959BF8700E4643E /* AppDelegate.swift */,
+				D0C04D862959BF8700E4643E /* SceneDelegate.swift */,
+				D0C04D8D2959BF8800E4643E /* Assets.xcassets */,
+				D0C04D8F2959BF8800E4643E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
