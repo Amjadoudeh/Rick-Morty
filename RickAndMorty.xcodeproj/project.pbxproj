@@ -143,11 +143,7 @@
 		D0C04DB42959EF8100E4643E /* Contorllers  */ = {
 			isa = PBXGroup;
 			children = (
-				D0C04D882959BF8700E4643E /* RMTabViewController.swift */,
-				D0C04DC12959F28C00E4643E /* RMLocationsViewController.swift */,
-				D0C04DC32959F2A700E4643E /* RMCharactersViewController.swift */,
-				D0C04DC52959F2BF00E4643E /* RMEpisodesViewController.swift */,
-				D0C04DC72959F2DB00E4643E /* RMSettingsViewController.swift */,
+				D0C04DCA2959FB1F00E4643E /* Core */,
 			);
 			path = "Contorllers ";
 			sourceTree = "<group>";
@@ -199,6 +195,18 @@
 				D0C04D8F2959BF8800E4643E /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0C04DCA2959FB1F00E4643E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0C04D882959BF8700E4643E /* RMTabViewController.swift */,
+				D0C04DC12959F28C00E4643E /* RMLocationsViewController.swift */,
+				D0C04DC32959F2A700E4643E /* RMCharactersViewController.swift */,
+				D0C04DC52959F2BF00E4643E /* RMEpisodesViewController.swift */,
+				D0C04DC72959F2DB00E4643E /* RMSettingsViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
