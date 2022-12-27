@@ -1,5 +1,6 @@
 import Foundation
 
+/// Episodes Model
 struct RMEpisodes: Codable {
     let id: Int
     let name: String

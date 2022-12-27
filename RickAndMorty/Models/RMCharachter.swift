@@ -1,5 +1,6 @@
 import Foundation
 
+/// Characters Models 
 struct RMCharacters: Codable {
     let id: Int
     let name: String
