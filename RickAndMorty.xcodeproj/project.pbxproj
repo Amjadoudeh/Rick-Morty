@@ -210,8 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				D0C04D882959BF8700E4643E /* RMTabViewController.swift */,
-				D0C04DC12959F28C00E4643E /* RMLocationsViewController.swift */,
 				D0C04DC32959F2A700E4643E /* RMCharactersViewController.swift */,
+				D0C04DC12959F28C00E4643E /* RMLocationsViewController.swift */,
 				D0C04DC52959F2BF00E4643E /* RMEpisodesViewController.swift */,
 				D0C04DC72959F2DB00E4643E /* RMSettingsViewController.swift */,
 			);
