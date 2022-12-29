@@ -9,23 +9,35 @@ final class RMCharactersViewController: UIViewController {
         title = "Characters"
         // Do any additional setup after loading the view.
         
-        let request = RMRequst(endpoint: .character,
-                               pathComponents: ["1"],
-                               queryParameters: [
-                                URLQueryItem(name: "name", value: "rick"),
-                                URLQueryItem(name: "status", value: "alive")
-                               ]
-        )
-        print(request.url)
-        
-        RMService.shared.execute(request, expacting: RMCharacters.self) { result in
+        RMService.shared.execute(.listCharactersRequest,
+                                 expecting: RMGetAllCharactersResponse.self) { result in
             switch result {
-            case .success:
-                break
+            case .success(let model):
+                print(String(describing: model))
             case .failure(let error):
                 print(String(describing: error))
             }
         }
+        
+        
+        
+//        let request = RMRequst(endpoint: .character,
+//                               pathComponents: ["1"],
+//                               queryParameters: [
+//                                URLQueryItem(name: "name", value: "rick"),
+//                                URLQueryItem(name: "status", value: "alive")
+//                               ]
+//        )
+//        print(request.url)
+//        
+//        RMService.shared.execute(request, expacting: RMCharacters.self) { result in
+//            switch result {
+//            case .success:
+//                break
+//            case .failure(let error):
+//                print(String(describing: error))
+//            }
+//        }
     }
 }
 
