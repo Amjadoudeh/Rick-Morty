@@ -16,10 +16,15 @@ final class RMCharactersViewController: UIViewController {
                                 URLQueryItem(name: "status", value: "alive")
                                ]
         )
-        // print(request.url)
+        print(request.url)
         
         RMService.shared.execute(request, expacting: RMCharacters.self) { result in
-            
+            switch result {
+            case .success:
+                break
+            case .failure(let error):
+                print(String(describing: error))
+            }
         }
     }
 }
