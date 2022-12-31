@@ -27,6 +27,7 @@
 		D0C04DD02959FFC600E4643E /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DCF2959FFC600E4643E /* RMEndpoint.swift */; };
 		D0C04DD4295DCAA000E4643E /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD3295DCAA000E4643E /* RMGetAllCharactersResponse.swift */; };
 		D0C04DD629606A9700E4643E /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD529606A9700E4643E /* CharacterListViewModel.swift */; };
+		D0C04DD829606C7200E4643E /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD729606C7200E4643E /* CharacterListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		D0C04DCF2959FFC600E4643E /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 		D0C04DD3295DCAA000E4643E /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		D0C04DD529606A9700E4643E /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		D0C04DD729606C7200E4643E /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		D0C04DB52959EF8A00E4643E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D0C04DD729606C7200E4643E /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				D0C04DC42959F2A700E4643E /* RMCharactersViewController.swift in Sources */,
 				D0C04DD4295DCAA000E4643E /* RMGetAllCharactersResponse.swift in Sources */,
 				D0C04DC02959F17700E4643E /* RMEpisodes.swift in Sources */,
+				D0C04DD829606C7200E4643E /* CharacterListView.swift in Sources */,
 				D0C04D852959BF8700E4643E /* AppDelegate.swift in Sources */,
 				D0C04DC82959F2DB00E4643E /* RMSettingsViewController.swift in Sources */,
 				D0C04DCC2959FEF100E4643E /* RMService.swift in Sources */,
