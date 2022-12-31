@@ -1,6 +1,6 @@
 import Foundation
 
-struct CharacterListViewModel {
+struct CharacterListViewViewModel {
     func fetchCharacter() {
         RMService.shared.execute(.listCharactersRequest,
                                  expecting: RMGetAllCharactersResponse.self) { result in
