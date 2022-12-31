@@ -28,6 +28,7 @@
 		D0C04DD4295DCAA000E4643E /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD3295DCAA000E4643E /* RMGetAllCharactersResponse.swift */; };
 		D0C04DD629606A9700E4643E /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD529606A9700E4643E /* CharacterListViewViewModel.swift */; };
 		D0C04DD829606C7200E4643E /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD729606C7200E4643E /* CharacterListView.swift */; };
+		D0C04DDA296075A600E4643E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C04DD9296075A600E4643E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D0C04DD3295DCAA000E4643E /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		D0C04DD529606A9700E4643E /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
 		D0C04DD729606C7200E4643E /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		D0C04DD9296075A600E4643E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				D0C04D862959BF8700E4643E /* SceneDelegate.swift */,
 				D0C04D8D2959BF8800E4643E /* Assets.xcassets */,
 				D0C04D8F2959BF8800E4643E /* LaunchScreen.storyboard */,
+				D0C04DD9296075A600E4643E /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				D0C04DD02959FFC600E4643E /* RMEndpoint.swift in Sources */,
 				D0C04D872959BF8700E4643E /* SceneDelegate.swift in Sources */,
 				D0C04DCE2959FF1300E4643E /* RMRequest.swift in Sources */,
+				D0C04DDA296075A600E4643E /* Extensions.swift in Sources */,
 				D0C04DD629606A9700E4643E /* CharacterListViewViewModel.swift in Sources */,
 				D0C04DBC2959F12500E4643E /* RMLocation.swift in Sources */,
 			);

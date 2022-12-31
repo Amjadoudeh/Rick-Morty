@@ -31,8 +31,7 @@ final class CharacterListView: UIView {
         super.init(frame: frame)
         translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = .systemGray
-        addSubview(collectionView)
-        addSubview(spinner)
+        addSubViews(collectionView,spinner)
         addConstraints()
         spinner.startAnimating()
         viewModel.fetchCharacter()
@@ -48,7 +47,12 @@ final class CharacterListView: UIView {
             spinner.widthAnchor.constraint(equalToConstant: 100),
             spinner.heightAnchor.constraint(equalToConstant: 100),
             spinner.centerXAnchor.constraint(equalTo: centerXAnchor),
-            spinner.centerYAnchor.constraint(equalTo: centerYAnchor)
+            spinner.centerYAnchor.constraint(equalTo: centerYAnchor),
+            
+            collectionView.topAnchor.constraint(equalTo: topAnchor),
+            collectionView.leftAnchor.constraint(equalTo: leftAnchor),
+            collectionView.rightAnchor.constraint(equalTo: rightAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
     
