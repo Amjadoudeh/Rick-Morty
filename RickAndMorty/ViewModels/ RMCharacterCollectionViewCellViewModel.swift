@@ -2,7 +2,7 @@ import Foundation
 
 
 final class RMCharacterCollectionViewCellViewModel {
-    private let characterName: String
+    public let characterName: String
     private let characterStatus: RMCharacterStatus
     private let characterImageUrl: URL?
     

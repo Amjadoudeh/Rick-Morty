@@ -58,10 +58,6 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
             imageView.rightAnchor.constraint(equalTo: contentView.rightAnchor),
             imageView.bottomAnchor.constraint(equalTo: nameLabel.topAnchor, constant: -3),
         ])
-        
-        imageView.backgroundColor = .green
-        nameLabel.backgroundColor = .red
-        statusLabel.backgroundColor = .orange
         /*
          | Image |
          | name  |
@@ -78,8 +74,21 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
         statusLabel.text = nil
     }
     
-    /// Configure the cell with the viewModel
+    /// Configure the cell with the viewModel to set the right data
     public func configure(with viewModel: RMCharacterCollectionViewCellViewModel) {
-        
+        nameLabel.text = viewModel.characterName
+        statusLabel.text  = viewModel.characterStatusText
+        viewModel.fetchImage { [weak self]result in
+            switch result {
+            case .success(let data):
+                DispatchQueue.main.async {
+                    let image = UIImage(data: data)
+                    self?.imageView.image = image
+                }
+            case .failure(let error):
+                print(String(describing: error))
+                break
+            }
+        }
     }
 }

@@ -7,9 +7,10 @@ final class RMCharacterListViewViewModel: NSObject  {
                                  expecting: RMGetAllCharactersResponse.self) { result in
             switch result {
             case .success(let model):
-                print(String(model.info.pages))
-                print(String(model.results.count))
-                print(String(describing: model))
+                print(String(model.results.first?.image ?? "no image"))
+//                print(String(model.info.pages))
+//                print(String(model.results.count))
+//                print(String(describing: model))
                 
             case .failure(let error):
                 print(String(describing: error))
@@ -29,7 +30,7 @@ extension RMCharacterListViewViewModel: UICollectionViewDataSource, UICollection
         }
         let viewModel = RMCharacterCollectionViewCellViewModel(characterName: "Amjad",
                                                                characterStatus: .alive,
-                                                               characterImageUrl: nil)
+                                                               characterImageUrl: URL(string: "https://rickandmortyapi.com/api/character/avatar/1.jpeg"))
         cell.configure(with: viewModel)
         
         return cell
