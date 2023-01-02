@@ -9,6 +9,12 @@ final class RMCharactersViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Characters"
+        setUpCharactersCollectionView()
+    }
+}
+
+extension RMCharactersViewController {
+    func setUpCharactersCollectionView() {
         view.addSubview(characterListView)
         NSLayoutConstraint.activate([
             characterListView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
